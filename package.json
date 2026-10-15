@@ -1,0 +1,19 @@
+{
+  "name": "chongqing-rain",
+  "version": "0.1.0",
+  "description": "雾都·十八梯 —— 重庆赛博朋克雨夜街道，纯代码程序化生成的 three.js 场景",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "check": "node tools/check.mjs",
+    "shot": "node tools/shot.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0"
+  }
+}
